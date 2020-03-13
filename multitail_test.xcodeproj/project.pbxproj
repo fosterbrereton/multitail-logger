@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CEFD26EF241C284F00997A40 /* another_source.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEFD26EE241C284F00997A40 /* another_source.cpp */; };
-		CEFD26F1241C285200997A40 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEFD26F0241C285200997A40 /* main.cpp */; };
+		CEFD26F6241C29BC00997A40 /* another_source.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEFD26F4241C29BC00997A40 /* another_source.cpp */; };
+		CEFD26F7241C29BC00997A40 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEFD26F5241C29BC00997A40 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,8 +25,9 @@
 
 /* Begin PBXFileReference section */
 		CEFD26E0241BE7AD00997A40 /* multitail_test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = multitail_test; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEFD26EE241C284F00997A40 /* another_source.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = another_source.cpp; path = test/another_source.cpp; sourceTree = "<group>"; };
-		CEFD26F0241C285200997A40 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = test/main.cpp; sourceTree = "<group>"; };
+		CEFD26F2241C296D00997A40 /* multitail.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = multitail.hpp; path = multitail/multitail.hpp; sourceTree = "<group>"; };
+		CEFD26F4241C29BC00997A40 /* another_source.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = another_source.cpp; path = test/another_source.cpp; sourceTree = "<group>"; };
+		CEFD26F5241C29BC00997A40 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = test/main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,8 +44,9 @@
 		CEFD26D7241BE7AD00997A40 = {
 			isa = PBXGroup;
 			children = (
-				CEFD26F0241C285200997A40 /* main.cpp */,
-				CEFD26EE241C284F00997A40 /* another_source.cpp */,
+				CEFD26F2241C296D00997A40 /* multitail.hpp */,
+				CEFD26F4241C29BC00997A40 /* another_source.cpp */,
+				CEFD26F5241C29BC00997A40 /* main.cpp */,
 				CEFD26E1241BE7AD00997A40 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -114,8 +116,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEFD26F1241C285200997A40 /* main.cpp in Sources */,
-				CEFD26EF241C284F00997A40 /* another_source.cpp in Sources */,
+				CEFD26F7241C29BC00997A40 /* main.cpp in Sources */,
+				CEFD26F6241C29BC00997A40 /* another_source.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

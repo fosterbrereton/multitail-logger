@@ -77,7 +77,6 @@ struct auto_file {
         static auto open_terminal{[]{
             const std::string thescript[] = {
                 "tell application \"Terminal\"",
-                "    activate",
                 "    set thescript to \"multitail -s 4 -n 1 -q 0 \\\"/tmp/" + session_id() + "/*\\\" --basename\"",
                 "    if exists window 0 then",
                 "        set curtab to do script thescript in window 0",
@@ -86,6 +85,7 @@ struct auto_file {
                 "    end if",
                 "    set number of rows of curtab to 50",
                 "    set number of columns of curtab to 200",
+                "    activate",
                 "end tell"
             };
             std::string cmdline("osascript");
